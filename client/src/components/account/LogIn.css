@@ -1,0 +1,39 @@
+.logIn {
+  position: absolute;
+  width: 350px;
+  left: 25%;
+  top: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+}
+
+.logIn header i {
+  font-size: 46px;
+  color: rgb(14, 146, 227);
+  margin-bottom: 7px;
+}
+
+.logIn h1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.logIn input {
+  border-radius: 30px;
+}
+
+.logIn input.button {
+  color: rgb(14, 146, 227);
+  background: #fff;
+  border: 1px solid rgb(14, 146, 227);
+  font-weight: bold;
+}
+
+.logIn .message {
+  color: #f00;
+}
+
+.logIn .toSignUp p span {
+  color: #1da1f2;
+}

@@ -1,0 +1,160 @@
+.profile .bg {
+  position: relative;
+  padding-top: 46px;
+  padding-bottom: 25%;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.profile .bg > img {
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+.profile .nav {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  top: 0px;
+  background: #fff;
+  box-shadow: 1px 2px 1px #ddd;
+  z-index: 100;
+}
+
+.profile .nav .avatar {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  top: -105px;
+  border: 5px solid #fff;
+  border-radius: 100%;
+  background: #eee;
+  overflow: hidden;
+  z-index: 1001;
+}
+
+.profile .nav .avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.profile .nav ul {
+  position: relative;
+  display: inline-block;
+  margin-left: 285px;
+  top: 0;
+  height: 60px;
+  border: 0px solid;
+}
+
+.profile .nav ul li, .profile .nav ul li a {
+  float: left;
+  width: auto;
+  height: 60px;
+}
+
+.profile .nav ul li a {
+  padding: 0 15px;
+  padding-top: 11px;
+}
+
+.profile .nav ul li a:hover, .profile .nav ul li.active a {
+  color: rgb(29, 161, 242);
+  border-bottom: 2px solid;
+}
+
+.profile .nav ul li span {
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.profile .nav ul li span:first-child {
+  font-size: 14px;
+}
+
+.profile .nav ul li span:last-child {
+  font-size: 18px;
+}
+
+.profile .nav button {
+  float: right;
+  min-width: 105px;
+  height: 36px;
+  line-height: 18px;
+  border-radius: 100px;
+  margin-top: 12.5px;
+  font-weight: bold;
+  background: #fff;
+  color: rgb(29, 161, 242);
+  padding: 0 15px;
+}
+
+.profile .nav button.followed {
+  border: 1px solid rgb(29, 161, 242);
+  background: rgb(29, 161, 242);
+  color: #fff;
+}
+
+.profile .nav button.followed:after {
+  content: 'Following';
+}
+
+.profile .nav button.followed:hover {
+  border: 1px solid #f22;
+  background: #f22;
+}
+
+.profile .nav button.followed:hover:after {
+  content: 'Unfollow';
+}
+
+.profile .main {
+  margin-top: 15px;
+  border: 0px solid;
+  z-index: 100;
+}
+
+.profile .main .left {
+  display: table;
+  background: #fff;
+  margin-top: 45px;
+  margin-bottom: 30px;
+  height: auto;
+  padding-top: 7.5px;
+  padding-bottom: 30px;
+  overflow: auto;
+}
+
+.profile .main .left .info {
+  display: row;
+}
+
+.profile .main .left .info h1 {
+  margin-top: 15px;
+  margin-bottom: 7.5px;
+}
+
+.profile .main .left .info h1 > span {
+  display: block;
+}
+
+.profile .main .left .info .name {
+  font-size: 24px;
+}
+
+.profile .main .left .info .username {
+  font-size: 18px;
+  color: #888;
+  margin-top: 3px;
+}
+
+.profile .main .left .info .date {
+  display: block;
+  width: 100%;
+  color: #888;
+  margin-top: 7.5px;
+}

@@ -1,0 +1,143 @@
+.tweetDialog {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  z-index: 300;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.tweetDialog .wrapper {
+  position: relative;
+  margin: 0 auto;
+  top: 150px;
+  width: 610px;
+}
+
+.tweetDialog .modal-header {
+  height: 50px;
+  padding: 0px;
+}
+
+.tweetDialog .modal-header > h3 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  top: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 0px solid;
+}
+
+.tweetDialog .modal-header i {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.tweetDialog .modal-body .avatar {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  background: #eee;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.tweetDialog .modal-body .avatar i {
+  font-size: 32px;
+  color: #888;
+}
+
+.tweetDialog .modal-body .textarea {
+  position: relative;
+  max-width: 100%;
+  height: 80px;
+  padding-left: 44px;
+}
+
+.tweetDialog .modal-body .textarea textarea {
+  height: 80px;
+  resize: none;
+}
+
+.tweetDialog .modal-footer {
+  position: relative;
+  display: block;
+  padding: 0px;
+  border-top: 0px solid;
+}
+
+.tweetDialog .modal-footer > div {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 44px;
+  top: -15px;
+}
+
+.tweetDialog .modal-footer .icons {
+  position: absolute;
+  width: 100%;
+  padding-left: 60px;
+  margin-top: 7.5px;
+}
+
+.tweetDialog .modal-footer .icons li {
+  display: inline-block;
+  float: left;
+  font-size: 21px;
+  color: #888;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.tweetDialog .modal-footer button {
+  position: absolute;
+  border-radius: 30px;
+  bottom: 2px;
+  height: 34px;
+  line-height: 17px;
+  opacity: 0.33;
+}
+
+.tweetDialog .modal-footer .addButton {
+  right: 100px;
+  background: #fff;
+  color: #888;
+  width: 34px;
+  text-align: center;
+  padding: 0px;
+}
+
+.tweetDialog .modal-footer .addButton i {
+  width: 34px;
+}
+
+.tweetDialog .modal-footer .tweetButton {
+  right: 15px;
+  font-weight: bold;
+}
+
+.tweetDialog .modal-footer .addButton.active,
+.tweetDialog .modal-footer .tweetButton.active {
+  opacity: 1;
+}
+
+.tweetDialog .modal-footer .message {
+  white-space: nowrap;
+  padding-right: 15px;
+  height: auto !important;
+  left: 0px;
+  color: red;
+  border: 0px solid;
+  text-align: right;
+}

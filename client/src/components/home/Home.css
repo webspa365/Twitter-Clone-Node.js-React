@@ -1,0 +1,98 @@
+.home > .row {
+  padding-top: 65px;
+
+}
+
+.home > .row > div {
+  padding: 7.5px;
+  padding-top: 0px;
+}
+
+.home .account {
+  background: #fff;
+}
+
+.home .account .bg {
+  position: relative;
+  display: block;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  padding-top: 33%;
+  overflow: hidden;
+  background: rgb(29, 161, 242);
+}
+
+.home .account .bg > img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+
+}
+
+.home .account .avatar {
+  position: absolute;
+  left: 15px;
+  top: 55px;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.home .account .avatar > img {
+  width: 100%;
+  height: 100%;
+}
+
+.home .account h1 {
+  position: relative;
+  width: 100%;
+  margin-top: 7.5px;
+}
+
+.home .account h1 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 100px;
+}
+
+.home .account h1 .name {
+  font-size: 16px;
+}
+
+.home .account h1 .username {
+  font-size: 16px;
+  color: #888;
+}
+
+.home .account .info {
+  position: relative;
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.home .account .info > a {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  display: inline-block;
+  width: 33.3%;
+  color: #888;
+  overflow: hidden;
+}
+
+.home .account .info > a:hover {
+  color: rgb(29, 161, 242);
+}
+
+.home .account .info > a > span {
+  position: relative;
+  font-size: 18px;
+  top: -3px;
+  color: rgb(29, 161, 242);
+}

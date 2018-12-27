@@ -1,0 +1,113 @@
+.whoToFollow {
+  background: #fff;
+  border: 0px solid;
+  padding: 15px;
+}
+
+.whoToFollow .avatar {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  margin-top: 6px;
+  z-index: 10;
+}
+
+.whoToFollow .avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.whoToFollow .avatar i {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 7.5px;
+  font-size: 48px;
+  color: #888;
+}
+
+.whoToFollow h2 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+}
+
+.whoToFollow ul {
+  border: 0px solid #888;
+  margin-top: 7.5px;
+}
+
+.whoToFollow ul li {
+  overflow: hidden;
+  height: 65px;
+  border-bottom: 1px solid #ccc;
+}
+
+.whoToFollow ul li:last-child {
+  border-bottom: 0px solid;
+}
+
+.whoToFollow ul li .nameWrapper {
+  position: relative;
+  white-space: nowrap;
+  width: 100%;
+  padding-left: 60px;
+  margin-top: 4px;
+}
+
+.whoToFollow ul li .name {
+  font-size: 15px;
+
+}
+
+.whoToFollow ul li .username {
+  font-size: 14px;
+  color: #888;
+}
+
+.whoToFollow .buttonWrapper {
+  position: relative;
+  width: 100%;
+  padding-left: 60px;
+}
+
+.whoToFollow .followButton {
+  position: relative;
+  width: 85px;
+  height: 28px;
+  line-height: 11px;
+  border-radius: 15px;
+  left: 0px;
+  top: 2px;
+  font-size: 13px;
+  font-weight: bold;
+  background: #fff;
+  color: rgb(29, 161, 242);
+  border: 1px solid rgb(29, 161, 242);
+}
+
+.whoToFollow .followButton:after {
+  content: 'Follow';
+}
+
+.whoToFollow .followButton.followed {
+  border: 1px solid rgb(29, 161, 242);
+  background: rgb(29, 161, 242);
+  color: #fff;
+}
+
+.whoToFollow .followButton.followed:after {
+  content: 'Following';
+}
+
+.whoToFollow .followButton.followed:hover {
+  border: 1px solid #f22;
+  background: #f22;
+}
+
+.whoToFollow .followButton.followed:hover:after {
+  content: 'Unfollow';
+}
